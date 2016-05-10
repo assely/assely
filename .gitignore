@@ -1,0 +1,5 @@
+/vendor
+/node_modules
+.DS_Store
+Thumbs.db
+.wp-cli.yml

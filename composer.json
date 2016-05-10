@@ -1,0 +1,16 @@
+{
+    "name": "assely/assely",
+    "description": "Assely introduces some standarized and comfortable ways for creating WordPress powered applications.",
+    "keywords": ["framework", "assely", "wordpress"],
+    "license": "MIT",
+    "type": "wordpress-theme",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev"
+}
