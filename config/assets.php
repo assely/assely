@@ -13,6 +13,6 @@ return [
     |
      */
 
-    'path' => get_template_directory_uri() . "/resources/assets",
+    'path' => get_template_directory_uri().'/resources/assets',
 
 ];

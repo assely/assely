@@ -14,7 +14,7 @@ return [
      */
 
     'paths' => [
-        get_template_directory() . "/resources/views",
+        get_template_directory().'/resources/views',
     ],
 
     /*
@@ -28,6 +28,6 @@ return [
     |
      */
 
-    'compiled' => get_template_directory() . "/storage/framework/views",
+    'compiled' => get_template_directory().'/storage/framework/views',
 
 ];

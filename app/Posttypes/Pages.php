@@ -7,7 +7,7 @@ use Assely\Posttype\Posttype;
 class Pages extends Posttype
 {
     /**
-     * Posttype Slug
+     * Posttype Slug.
      *
      * @var string
      */
