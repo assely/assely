@@ -44,28 +44,28 @@ class AppServiceProvider extends ServiceProvider
     protected function addSupport()
     {
         Support::add([
-            /**
+            /*
              * Add support for head <title> tag.
              *
              * @see https://developer.wordpress.org/reference/functions/add_theme_support/#title-tag
              */
             'title-tag' => true,
 
-            /**
+            /*
              * Add support for posts thumbnails.
              *
              * @see https://developer.wordpress.org/reference/functions/add_theme_support/#post-thumbnails
              */
             'post-thumbnails' => true,
 
-            /**
+            /*
              * Add support for post formats types.
              *
              * @see https://developer.wordpress.org/reference/functions/add_theme_support/#post-formats
              */
             'post-formats' => [],
 
-            /**
+            /*
              * Turn on HTML5 markup for Wordpress elements.
              *
              * @see https://developer.wordpress.org/reference/functions/add_theme_support/#html5
@@ -103,10 +103,10 @@ class AppServiceProvider extends ServiceProvider
      */
     protected function requireComponents()
     {
-        require dirname(__DIR__) . '/Support/menus.php';
+        require dirname(__DIR__).'/Support/menus.php';
 
-        require dirname(__DIR__) . '/Support/sidebars.php';
+        require dirname(__DIR__).'/Support/sidebars.php';
 
-        require dirname(__DIR__) . '/Support/thumbnails.php';
+        require dirname(__DIR__).'/Support/thumbnails.php';
     }
 }

@@ -26,7 +26,6 @@ class Jazzman extends Command
      * ## EXAMPLE
      *
      *     wp release:jazzman
-     *
      */
     public function jazzman()
     {

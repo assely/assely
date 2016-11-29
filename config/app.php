@@ -67,7 +67,7 @@ return [
 
     'providers' => [
 
-        /**
+        /*
          * Assely Components Service Providers
          */
         Illuminate\Filesystem\FilesystemServiceProvider::class,
@@ -94,12 +94,12 @@ return [
         Assely\Sidebar\SidebarServiceProvider::class,
         Assely\View\ViewServiceProvider::class,
 
-        /**
+        /*
          * Assely Framework Service Providers
          */
         Assely\Foundation\Providers\FoundationServiceProvider::class,
 
-        /**
+        /*
          * Application Service Providers
          */
         App\Providers\AppServiceProvider::class,

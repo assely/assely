@@ -16,11 +16,11 @@ if (version_compare(phpversion(), '5.5.9', '<')) {
         ?>
 		    <div class="error notice">
 		        <p>
-		        	<?php _e('Assely Framework requires atleast <b>PHP 5.5.9</b> for the proper functioning.', 'Assely');
-        ?>
+		        	<?php _e('Assely Framework requires atleast <b>PHP 5.5.9</b> for the proper functioning.', 'Assely'); ?>
 		        </p>
 		    </div>
 	    <?php
+
     }
 
     add_action('admin_notices', 'assely_php_version_is_not_sufficient');
@@ -38,24 +38,24 @@ if (version_compare(phpversion(), '5.5.9', '<')) {
 |
  */
 
-if ( ! function_exists('is_plugin_active')) {
-    include_once ABSPATH . 'wp-admin/includes/plugin.php';
+if (! function_exists('is_plugin_active')) {
+    include_once ABSPATH.'wp-admin/includes/plugin.php';
 }
 
-if ( ! is_plugin_active('assely-framework/assely-framework.php')) {
+if (! is_plugin_active('assely-framework/assely-framework.php')) {
     function assely_not_found_notice()
     {
         ?>
 		    <div class="error notice">
 		        <p>
-		        	<?php _e('<b>We could not find Assely Framework.</b> Install and activate Assely Framework.', 'Assely');
-        ?>
+		        	<?php _e('<b>We could not find Assely Framework.</b> Install and activate Assely Framework.', 'Assely'); ?>
 		        </p>
 		    </div>
 	    <?php
+
     }
 
-    if ( ! (is_admin() || in_array($GLOBALS['pagenow'], ['wp-login.php', 'wp-register.php']))) {
+    if (! (is_admin() || in_array($GLOBALS['pagenow'], ['wp-login.php', 'wp-register.php']))) {
         wp_die(__('Unfortunately, this theme requires <strong>Assely Framework</strong>. Please make sure it is installed.', 'Assely'));
     }
 

@@ -12,4 +12,3 @@
  */
 
 // Thumbnail::create('primary', ['size' => [800, 600]]);
-
