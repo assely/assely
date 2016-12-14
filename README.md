@@ -2,6 +2,8 @@
 
 ### Assely is a PHP framework which brings a little joy to the WordPress development. Develop structured, easily scalable and complex WordPress websites and web applications with truly pleasure.
 
+> Take a note we still in pre-alpha. Things may break, things may change :) Thanks for your understanding!
+
 Today, WordPress development is pretty rough and messy. The Assely framework aims to introduce some standarized and comfortable ways for creating WordPress powered applications. We still have a long way to go, but we believe that it is possible. Take a look at what is waiting for you:
 
 - Fast custom [Post Types](https://assely.org/docs/posttype), [Taxonomies](https://assely.org/docs/taxonomy), [Metaboxes](https://assely.org/docs/metabox) scaffording
