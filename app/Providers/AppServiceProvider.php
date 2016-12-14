@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Assely\Support\Facades\Hook;
 use Assely\Support\Support;
+use Assely\Support\Facades\Hook;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
