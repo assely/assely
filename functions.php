@@ -6,7 +6,7 @@ if (! require_once __DIR__.'/bootstrap/compatibility.php') {
     return;
 }
 
-// Now, it's safety to load application.
+// Now, it's safe to load application.
 $app = require_once __DIR__.'/bootstrap/app.php';
 
 // At this point, we also boot all
