@@ -24,4 +24,16 @@ class Posts extends Posttype
             //
         ];
     }
+
+    /**
+     * Specify posttype templates.
+     *
+     * @return array
+     */
+    public function templates()
+    {
+        return [
+            // 'template-slug' => 'Template name'
+        ];
+    }
 }

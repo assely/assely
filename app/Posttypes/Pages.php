@@ -26,14 +26,14 @@ class Pages extends Posttype
     }
 
     /**
-     * Specify page templates.
+     * Specify posttype templates.
      *
      * @return array
      */
     public function templates()
     {
         return [
-            // 'template' => 'Template title'
+            // 'template-slug' => 'Template name'
         ];
     }
 }
