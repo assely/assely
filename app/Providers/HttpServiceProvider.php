@@ -14,18 +14,18 @@ class HttpServiceProvider extends ServiceProvider
     protected $namespace = 'App\Http\Controllers';
 
     /**
-     * Register addtional WordPress route conditions.
+     * Register route service.
      *
-     * @return array
+     * @return void
      */
-    public function routeConditions()
+    public function register()
     {
         // Here is place where you can define addtional
         // WordPress route conditions. For example
         // a WooCommerce custom conditionals.
-        return [
+        $this->app['wpconditions']->add([
             // 'is_shop' => 'shop'
-        ];
+        ]);
     }
 
     /**
