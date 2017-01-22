@@ -35,6 +35,8 @@ class HttpServiceProvider extends ServiceProvider
      */
     protected function load()
     {
+        require dirname(__DIR__).'/Http/rewrites.php';
+
         require dirname(__DIR__).'/Http/routes.php';
 
         require dirname(__DIR__).'/Http/assets.php';
