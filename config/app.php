@@ -134,6 +134,7 @@ return [
         'Post' => 'Assely\Support\Facades\Post',
         'Route' => 'Assely\Support\Facades\Route',
         'Sidebar' => 'Assely\Support\Facades\Sidebar',
+        'Support' => 'Assely\Support\Facades\Support',
         'Term' => 'Assely\Support\Facades\Term',
         'Thumbnail' => 'Assely\Support\Facades\Thumbnail',
         'User' => 'Assely\Support\Facades\User',
