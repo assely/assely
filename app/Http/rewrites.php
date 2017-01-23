@@ -12,5 +12,5 @@
  */
 
 Rewrite::rule('/{name}')->where([
-	'name' => '([^/]+)'
+    'name' => '([^/]+)',
 ]);
