@@ -1,7 +1,5 @@
 <?php
 
-use Assely\Routing\Router;
-
 /*
 |--------------------------------------------------------------------------
 | The Tremeloes - Silence is Golden
@@ -13,5 +11,3 @@ use Assely\Routing\Router;
 | But my eyes still see.
 |
  */
-
-Assely\Helpers\app(Router::class)->execute();
