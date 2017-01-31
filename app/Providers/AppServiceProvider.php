@@ -77,6 +77,13 @@ class AppServiceProvider extends ServiceProvider
                 'gallery',
                 'caption',
             ],
+            
+            /*
+             * Add support for customize selective refresh widgets.
+             *
+             * @see https://developer.wordpress.org/reference/functions/add_theme_support/#customize-selective-refresh-widgets
+             */
+            'customize-selective-refresh-widgets' => true,
         ]);
     }
 
