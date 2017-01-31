@@ -77,7 +77,7 @@ class AppServiceProvider extends ServiceProvider
                 'gallery',
                 'caption',
             ],
-            
+
             /*
              * Add support for customize selective refresh widgets.
              *
