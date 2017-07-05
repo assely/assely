@@ -20,7 +20,6 @@ if (version_compare(phpversion(), '5.5.9', '<')) {
 		        </p>
 		    </div>
 	    <?php
-
     }
 
     add_action('admin_notices', 'assely_php_version_is_not_sufficient');
@@ -52,7 +51,6 @@ if (! is_plugin_active('assely-framework/assely-framework.php')) {
 		        </p>
 		    </div>
 	    <?php
-
     }
 
     if (! (is_admin() || in_array($GLOBALS['pagenow'], ['wp-login.php', 'wp-register.php']))) {
